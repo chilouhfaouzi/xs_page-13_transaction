@@ -1,0 +1,219 @@
+/* --------------------------
+:: Template Name: Eventsia : Page 12
+:: Description: Page 12
+:: Created: 29/11/2020  MM/DD/YYYY
+-------------------------- */
+
+/* ----------------------
+[Table of contents]
+01.Base CSS
+02.Rules of thirds CSS
+
+ --------------------------*/
+
+/*  ----------- 01- Start Base CSS  ----------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-black-color: #222;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+/*  ----------- 01 -End Base CSS   -----------*/
+/*  ----------- 02 -Start page  CSS   -----------*/
+.Transaction_history_stats {
+  .Preloade3 main {
+    position: relative;
+    height: 94vh;
+    width: 100vw;
+    background: #fff;
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-bottom: 6.5vh;
+  }
+  .Preloade3 header {
+    width: 100vw;
+    overflow: hidden;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 12px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+  }
+  .Preloade3 .backButton {
+    width: 8vw;
+    position: absolute;
+    top: 5px;
+    left: 3vw;
+    max-width: 60px;
+  }
+  .Preloade3 .navbar {
+    width: 100vw;
+    height: 6vh;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    border-top: 1px solid #eaeced;
+    padding: 4px 0;
+  }
+  .p_trans {
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.6;
+  }
+  .search {
+    width: 8vw;
+    position: absolute;
+    right: 3vw;
+    max-width: 60px;
+    top: 5px;
+  }
+  .Preloade3 .navbaeelement {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navbaeelement img {
+    width: 22px;
+  }
+
+  .nav_time {
+    text-align: center;
+    padding: 20px 0 0;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .one_time.active {
+    border-bottom: 2px solid #f0f;
+  }
+
+  .list_persone {
+    padding: 0 20px;
+    margin-bottom: 6vh;
+  }
+
+  .list_persone > div:not(.show) {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+  .personn {
+    border-top: 1.5px solid rgba(211, 211, 211, 0.507);
+    margin: 0 -20px;
+    padding: 15px 0;
+  }
+  .list_persone .name {
+    font-size: 14px;
+  }
+  .price,
+  .div_name {
+    padding-top: 5px !important;
+  }
+  .time,
+  .payment {
+    font-size: 11px;
+  }
+  .price {
+    text-align: right;
+  }
+  .image {
+    position: relative;
+  }
+
+  .offline,
+  .online,
+  .no_online {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .online {
+    background-color: #1ecfcc;
+  }
+  .offline {
+    background-color: rgba(235, 33, 94, 0.904);
+  }
+  .no_online {
+    background-color: rgba(170, 170, 170, 0.705);
+  }
+
+  .section_img {
+    margin-left: 20px;
+  }
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .row > div {
+    padding: 0;
+  }
+  .people {
+    position: relative;
+  }
+  .number {
+    position: absolute;
+    width: 20px;
+    text-align: center;
+    height: 18px;
+    top: -4px;
+    right: 9px;
+    background-color: #4ca1ba;
+    color: #fff;
+    border-radius: 7px;
+  }
+  .refresh {
+    position: fixed;
+    color: #fff;
+    bottom: 60px;
+    left: 20%;
+    background-color: #4c5fef;
+    padding: 15px 25px;
+    border-radius: 20px;
+    z-index: 20;
+    font-size: 11px;
+  }
+  .refresh img {
+    width: 18px;
+    margin-left: 20px;
+  }
+}
+
+/*  ----------- 02 -End page  CSS   -----------*/
